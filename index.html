@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Life Ambulancias S.A.S.</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    
+    
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav__hero">
+            <div class="container nav-container">
+                <div class="logo">
+                    <h2 class="logo_name">Global Life Ambulancias<span class="point">.</span></h2>
+                </div>
+                <div class="links">
+                    <a href="#inicio" class="link link--active">Inicio</a>  
+                    <a href="#servicios" class="link">Servicios</a>
+                    <a href="#footer" class="link">Contacto</a>
+                </div>
+            </div>
+        </nav>
+       
+        
+        <section class="hero_main" id="inicio">
+
+            <img class="portada" src="img/PORTADA-01.jpg" alt="">
+                <!-- <div class="hero_textos">
+                <h1 class="title">Trabajamos Para <span class="title--active">Su Servicio</span></h1>
+                <p class="copy">Somos una empresa dedicada al transporte medicalizado terrestre y aéreo de pacientes.
+                    <span class="copy_active">También brindamos atención domiciliaria en la ciudad de Bogotá
+                        con años de experiencia en el sector.</span>
+                </p>
+                <a href="#" class="cta">Más Información</a>
+                </div> -->
+          <!--   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/artur-tumasjan-qLzWvcQq-V8-unsplash.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/elena-mozhvilo-0HBCiyuk3Bo-unsplash.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/miikka-luotio-8EH013swm_k-unsplash.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div> -->
+
+        </section>
+
+    </header>
+
+    <main>
+        <section class="services" id="servicios">
+            <div class="container">
+                <div class="modal fade" tabindex="-1" id="myModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title">Hospitalización en casa</h4>
+                          <!-- <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button> -->
+                        </div>
+                        <div class="modal-body">
+                          <p>Permite brindar una atención profesional al paciente
+                               en su medio habitual, lo que facilita la participación activa de su grupo familiar
+                                y con esto agilizar en lo posible su recuperación o estabilización<span class="point">.</span></p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                      
+                    </div>
+                </div>
+                <h2 class="subtitles">Nuestros Servicios<span class="point">.</span></h2>
+
+                <!-- <p class="copy__section">Nuestros Servicios</p> -->
+
+                <article class="container-cards">
+                    <div class="card">
+                        <img src="img/HOSP CASA.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">HOSPITALIZACIÓN EN CASA</p>
+                            <!-- <h3 class="card__title">Estados Financieros Global Life 2020<span class="point">.</span>
+                            </h3> -->
+
+                            <p class="card__copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, eius.</p>
+                            <a data-toggle='modal' href="#myModal" class="card__button">Más Información</a>
+                           
+                            
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/ENFER DOM.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">ATENCIÓN DE ENFERMERIA</p>
+                            <!-- <h3 class="card__title">Estados Financieros Global Life 2020<span class="point">.</span>
+                            </h3> -->
+                            <p class="card__copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, eius.</p>
+                            <a href="#" class="card__button">Más Información</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/TRANS ASIS.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">TRANSPORTE ASISTENCIAL</p>
+                            <!-- <h3 class="card__title">Estados Financieros Global Life 2020<span class="point">.</span>
+                            </h3> -->
+                            <p class="card__copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, eius.</p>
+                            <a href="#" class="card__button">Más Información</a>
+                        </div>
+                    </div>
+
+                  <!--   <div class="card">
+                        <img src="img/waldemar-brandt-n_YHcNnrEJc-unsplash.jpg" class="card__img">
+                        <div class="cards__text">
+                            <p class="card__list">Flujo de Efectivo del año 2020</p>
+                            <h3 class="card__title">Estados Financieros Global Life 2020<span class="point">.</span>
+                            </h3>
+                            <p class="card__copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, eius.</p>
+                            <a href="#" class="card__button">Más Información</a>
+                        </div>
+                    </div> -->
+
+                </article>
+            </div>
+        </section>
+        <section class="projects container" id="servicios">
+            <h2 class="subtitles">Noticias<span class="point">.</span></h2>
+
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/PRUEBA COVID-01.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/MEDICOS-01.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/INTRO-01.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!-- <article class="container-bg">
+                <div class="card">
+                    <div class="cards__text">
+                        <h3 class="card__title">COVID-19<span class="point">.</span></h3>
+                        <p class="card__date">25 de junio de 2021</p>
+                        <p class="card__copy"></p>
+                        <a href="#" class="card__button">Más Información</a>
+                    </div>
+                </div>
+                <div class="background">
+                    <img src="img/PRUEBA COVID-01.jpg" class="background-img">
+                    <div class="background__text">
+                        <h3 class="background_title">Lugar: Aplicación Virtual</h3>
+                        <p class="background__copy">Asistiendo a la reunión podrás hacer parte de la Asociación y/o elegir a
+                            los integrantes de su junta directiva. Si estás interesado, inscríbete haciendo <a class="click"
+                                href="#">Click Aquí</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cards__text">
+                        <h3 class="card__title">Atención domiciliaria<span class="point">.</span></h3>
+                        <p class="card__date">29 de junio de 2021</p>
+                        <p class="card__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam autem
+                            praesentium accusantium! Quidem, modi. Sint culpa aliquid nesciunt sed unde, quos dignissimos
+                            commodi accusantium vero deleniti voluptate iure eveniet!</p>
+                        <a href="#" class="card__button">Más Información</a>
+                    </div>
+                </div>
+                <div class="background">
+                    <img src="img/artur-tumasjan-qLzWvcQq-V8-unsplash.jpg" class="background-img">
+                    <div class="background__text">
+                        <h3 class="background_title">Lugar: Aplicación Virtual</h3>
+                        <p class="background__copy">Asistiendo a la reunión podrás hacer parte de la Asociación y/o elegir a
+                            los integrantes de su junta directiva. Si estás interesado, inscríbete haciendo <a
+                                href="#">Click Aquí</a></p>
+                    </div>
+                </div>
+            </article> -->
+    
+        </section>
+
+        <section class="email container container--modifier">
+            
+            <h2 class="subtitles subtitles--modifier">Requisitos para hacer parte de la asociación<span class="point">.</span></h2>
+            
+            <p class="copy__section copy__section--modifier">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur dicta quas repudiandae minima, possimus debitis quia nulla fugiat provident officiis!</p>
+
+            <div class="check">
+                <div class="check__item">
+                    <i class='bx bx-check'></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Socios</p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check'></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Socios</p>
+                    </div>
+                </div>
+                <div class="check__item">
+                    <i class='bx bx-check'></i>
+                    <div class="check__numbers">
+                        <p class="check__number">+200</p>
+                        <p class="check__copy">Socios</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form action="enviar.php" method="POST">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                    <input type="email" name="mail" class="form-control" id="exampleFormControlInput1" 
+                    placeholder="nombre@ejemplo.com">
+                </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Solicitud</label>
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button type="button" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <p class="contacto">
+                        Contacto
+                    </p>
+                    <p class="titulo-contacto">
+                        Lorem ipsum dolor sit amet consectetu
+                    </p>
+                    <p id="localization">
+                        <i class='bx bx-map'></i>
+                        <span class="direccion">
+                            Calle 163 # 16C-62, Bogotá.
+                        </span>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="contacto">
+                        Redes Sociales
+                    </p>
+                    <div class="socialmedia">
+                        <p class="socialmedia__legend">Síguenos en:</p>
+                        <i class='socialmedia__icon bx bxl-facebook-circle'></i>
+                        <i class='socialmedia__icon bx bxl-twitter'></i>
+                        <i class='socialmedia__icon bx bxl-instagram'></i>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        
+    </div>
+    
+    <div class="footer">
+        <div class="contactanos">
+            <div class="item__contact">
+                <i class='bx bx-copyright contact__icon'></i>
+                <h3 class="contact__title">Global Life Ambulancias SAS</h3>
+            </div>
+        </div>
+        <div class="contactanos">
+            <div class="item__contact">
+                <i class='bx bx-mail-send contact__icon'></i>
+                <h3 class="contact__title">globallife@glambulancias.com</h3>
+            </div>
+        </div>
+        <div class="contactanos">
+            <div class="item__contact">
+                <i class='bx bxs-chat contact__icon'></i>
+                <h3 class="contact__title">Contáctanos ahora</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+    crossorigin="anonymous">
+    </script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+    crossorigin="anonymous">
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+    crossorigin="anonymous">
+    </script>
+
+    <script>
+        $('.carousel').carousel();
+    </script>
+
+
+</body>
+
+</html>
