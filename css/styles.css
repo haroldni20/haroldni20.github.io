@@ -53,20 +53,20 @@ body{
     width: 95%;
     max-width: 1200px;
     margin: 0;
-    /* overflow: hidden; */
+    overflow: hidden;
     padding: 50px 0;
-    height: 95vh;
 }
 
 .projects{
     width: 95%;
     height: auto;
-    padding: 50px 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
 }
 
 .container--modifier{
     width: 60%;
+    height: 100%;
 }
 
 .hero{
@@ -170,12 +170,13 @@ body{
 .services{
     background: #f8f8f8;
     width: 100%;
-    height: 100vh;
+    height: auto;
 
 }
-.subtitle{
-    font-size: 42px;
+.subtitles{
+    font-size: 30px;
     color: #2a57b4;
+    margin: 15px;
 }
 .subtitles--modifier{
     text-align: center;
@@ -194,8 +195,10 @@ body{
 }
 .container-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: auto;
     flex-wrap: wrap;
+    padding: 10px;
 }
 .card{
     width: 32%;
@@ -205,9 +208,10 @@ body{
     text-shadow: 0 8px 8px #00000033;
     /* background: linear-gradient(180deg, #ffff 0%,#009fb8 200%); */
     /* border-radius: 10px; */
+    height: auto;
     position: relative;
     text-align: left;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     box-shadow: 0 0 6px #00000033;
 }
 .card__img{
@@ -380,8 +384,7 @@ button{
     cursor: pointer;
 }
 .footer{
-    height: 40vh;
-    background: linear-gradient(180deg, #2a57b4 0%,#ffff 200%);
+    background-color: #208BFF;
     color: white;
     display: flex;
     flex-direction: column;
@@ -438,4 +441,25 @@ button{
 
 h3, .contact__title, .bx{
     color: white;
+}
+.redes__sociales{
+    width: 100%;
+    height: 31%;
+    background-color:#ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0; 
+}
+a, .redes__sociales--item{
+    display: inline-block;
+    color:#208BFF;
+    
+}
+.icon__social-media{
+    margin: 3px;
+}
+h2, .subtitles{
+
 }
