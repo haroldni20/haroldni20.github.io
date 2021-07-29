@@ -67,6 +67,7 @@ body{
 .container--modifier{
     width: 60%;
     height: 100%;
+    margin: 10px;
 }
 
 .hero{
@@ -462,4 +463,8 @@ a, .redes__sociales--item{
 }
 h2, .subtitles{
 
+}
+
+.email{
+    margin: 40px;
 }
