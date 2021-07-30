@@ -21,7 +21,7 @@
 <body>
     <header class="hero">
         <nav class="nav__hero">
-            <div class="container nav-container">
+            <div class="container nav-container navbar fixed-top">
                 <div class="logo">
                     <h2 class="logo_name">Global Life Ambulancias<span class="point">.</span></h2>
                 </div>
@@ -260,6 +260,12 @@
                 </form>
             </section>
     </main>
+
+<!----Boton de ir hacia arriba-->
+    <div id="button-up">
+        <i class="bi bi-arrow-up-short"></i>
+    </div>
+
         <div class="footer" id="footer">
             <div class="contactanos">
                 <div class="item__contact">
@@ -336,5 +342,16 @@
             interval: 10
         });
     </script>
+    <script>
+
+        document.getElementById("button-up").addEventListener("click", scrollUp);
+        function scrollUp(){
+            var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+            if(currentScroll>0){
+                window.scrollTo(0,0);
+            }
+        }
+    </script>
+
     </body>
 </html>
