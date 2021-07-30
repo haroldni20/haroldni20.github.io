@@ -62,16 +62,20 @@
 .hero{
     width: 100%;
     height: auto;
-    background-color: #ffff;
+    background-color: #ffff !important;
     
 }
-.nav__hero{
+.nav__hero, .navbar, .nav-link, .navbar-brand{
     background-color: #ffff;
-    color: #2a57b4;
-    width: 100%;
-    height: 80px;
-    border-bottom: 1px solid #2a57b4;
+    color: #2a57b4 !important;
+    font-size: 22px;
 }
+.nav-link:hover{
+    background-color:#bbecf5;
+    color: white;
+    border-radius: 4px;
+}
+
 .nav-container{
     background-color: #ffff;
     width: 100%;
