@@ -5,7 +5,9 @@
     color: white;
     font-family: 'Bebas Neue', cursive;
 }
-
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
 .click{
     color: #ffff;
 }
@@ -519,7 +521,4 @@ h2, .subtitles{
 }
 p, .parrafo__principal{
     color: rgb(41,86,177);
-}
-.navbar-collapse{
-    flex-grow: 0 !important;
 }
