@@ -20,14 +20,17 @@
 
 <body>
     <header class="hero">
-        <nav class="nav__hero navbar navbar-expand-lg navbar-light">
+        <nav class="nav__hero navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#inicio">Global Life Ambulancias</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand close" href="#inicio" style="font-size: 30px;">Global Life Ambulancias</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
+                <ul class="navbar-nav ml-auto text-center">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                   </li>
@@ -36,6 +39,9 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#noticias">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
@@ -101,6 +107,9 @@
     <main>
         <section class="services" id="servicios">
             <div class="container">    
+                
+                <h2 class="subtitles">Nuestros Servicios<span class="point">.</span></h2>
+
                 <div class="modal fade" tabindex="-1" id="myModal1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
@@ -118,9 +127,6 @@
                         </div>
                     </div>
                 </div>
-
-                <h2 class="subtitles">Nuestros Servicios<span class="point">.</span></h2>
-
                 <div class="modal fade" tabindex="-1" id="myModal2" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                       <div class="modal-content">
@@ -188,8 +194,9 @@
             </div>
 
         </section>
+        <section id="noticias">
 
-            <article class="container-bg" id="noticias">
+            <article class="container-bg">
                 
                 <div class="card col-11 col-sm-3">
                     <div class="cards__text">
@@ -250,6 +257,7 @@
                         </div>
                 </div>
             </article>
+        </section>
           
             <div class="nosotros" id="nosotros"> 
                 <section class="nosotros__modifier" >
@@ -376,7 +384,12 @@
                 window.scrollTo(0,0);
             }
         }
+        
     </script>
-
+     <script>
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
     </body>
 </html>
