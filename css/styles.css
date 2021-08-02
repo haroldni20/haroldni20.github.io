@@ -180,6 +180,11 @@
     color: #2a57b4;
     margin: 15px;
 }
+
+.subtitles__noticias{
+    padding-top: 30px;
+    padding-left: 50px;
+}
 .subtitles--modifier{
     text-align: center;
     margin-bottom: 0;
