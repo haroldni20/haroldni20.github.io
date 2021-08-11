@@ -587,4 +587,7 @@ p, .parrafo__principal{
     margin-bottom: 20px;
     font-family: 'Champagne & Limousines';
 }
-
+.row{
+    display: flex;
+    justify-content: center;
+}
